@@ -1,171 +1,67 @@
-
-#//////////////////////////////////////////////////////////////////////////////
-#/
-#/  SITE SETTINGS
-#/
-#//////////////////////////////////////////////////////////////////////////////
-
-title: 'PGA Reach'
-description: "Impacting lives through golf."
-copyright: '© 2017 The PGA of America. All rights reserved. PGA REACH is a trademark owned by the PGA of America'
-email: fe_cr@hotmail.com
-
-# URLs
-# -----------------------------------------------------------------------------
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
-
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-# -----------------------------------------------------------------------------
-google_analytics: 
-
-
-#//////////////////////////////////////////////////////////////////////////////
-#/
-#/  COLLETION CASE STUDIES
-#/
-#//////////////////////////////////////////////////////////////////////////////
-
+---
+title: PGA Reach
+timezone: UTC
 collections:
   case_studies:
+    title: Case Studies
     output: true
-    permalink: /case-studies/:categories/:title.html
-
+    permalink: "/case-studies/:categories/:title.html"
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 defaults:
-  - scope:
-      path: ""
-      type: "case_studies"
-    values:
-      layout: "case-study"
-
-#//////////////////////////////////////////////////////////////////////////////
-#/
-#/  PLUGINS
-#/
-#//////////////////////////////////////////////////////////////////////////////
-
+- scope:
+    path: ''
+    type: case_studies
+  values:
+    layout: case-study
+description: Impacting lives through golf.
+copyright: "© 2017 The PGA of America. All rights reserved. PGA REACH is a trademark
+  owned by the PGA of America"
+email: fe_cr@hotmail.com
+baseurl: ''
+url: ''
+google_analytics: 
 plugins:
-  - jekyll-paginate
-  - jekyll-tidy
-  - jekyll-paginate-category
-  - jekyll-sitemap
-  - jekyll-feed
-
-
-#//////////////////////////////////////////////////////////////////////////////
-#/
-#/  HTML COMPRESSION
-#/
-#//////////////////////////////////////////////////////////////////////////////
-
+- jekyll-paginate
+- jekyll-tidy
+- jekyll-paginate-category
+- jekyll-sitemap
+- jekyll-feed
 jekyll_tidy:
   compress_html: false
-
-#//////////////////////////////////////////////////////////////////////////////
-#/
-#/  PAGINATION E CATEGORY LAYOUT
-#/
-#//////////////////////////////////////////////////////////////////////////////
-
-paginate: 5000 # avoid pagination but it required for the category layout
-# paginate_path: "/page-:num"
-permalink: /:categories/:title.html
-category_dir: /
-category_layout: "_templates/category.html"
-
-
-#//////////////////////////////////////////////////////////////////////////////
-#/
-#/  SASS / CSS
-#/
-#//////////////////////////////////////////////////////////////////////////////
-
-# Set the Sass partials directory, as we're using @imports
+paginate: 5000
+permalink: "/:categories/:title.html"
+category_dir: "/"
+category_layout: _templates/category.html
 sass:
-  style: expanded # You might prefer to minify using :compressed
-  # style: compressed # You might prefer to minify using :compressed
-
-#//////////////////////////////////////////////////////////////////////////////
-#/
-#/  Build settings
-#/
-#//////////////////////////////////////////////////////////////////////////////
-
-# Jekyll 3 now only supports Kramdown for Markdown
+  style: expanded
 kramdown:
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks
   input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
   syntax_highlighter: rouge
   syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
-    css_class: 'highlight'
-
-excerpt_separator: <!--more-->
-
-# include_dir: ['']
-keep_files: [".git", ".svn"]
-
-
-#//////////////////////////////////////////////////////////////////////////////
-#/
-#/  IMAGES
-#/
-#//////////////////////////////////////////////////////////////////////////////
-
-# Images Path
-img_path: /assets/img/
+    css_class: highlight
+excerpt_separator: "<!--more-->"
+keep_files:
+- ".git"
+- ".svn"
+img_path: "/assets/img/"
 case_studies_path: case-studies/
-
-
-#//////////////////////////////////////////////////////////////////////////////
-#/
-#/  CSS
-#/
-#//////////////////////////////////////////////////////////////////////////////
-
-# Css Path
-css_path: /assets/css/
-
-# Main Css style sheet
+css_path: "/assets/css/"
 main_css: style.css
-
-
-#//////////////////////////////////////////////////////////////////////////////
-#/
-#/  JS
-#/
-#//////////////////////////////////////////////////////////////////////////////
-
-# Javascript Path
-js_path: /assets/js/
-
-# Main Javascript
+js_path: "/assets/js/"
 main_js: main.js
-
-# Jquery
 jquery: false
-# jquery_url: https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js
 jquery_url: https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js
-
-# Bootstrap
 bootstrap_url: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js
 bootstrap_ie: https://maxcdn.bootstrapcdn.com/js/ie10-viewport-bug-workaround.js
-
-# modernizr
 modernizr: false
 modernizr_url: http://yastatic.net/modernizr/2.7.1/modernizr.min.js
-
-# Internet Explorer version detection
 ie_version: false
-
-# Grids
-# -----------------------------------------------------------------------------
 grids: false
 grids_url: http://grids.danieldipietro.com/assets/js/grids.js
-
-
-# Include and Exclude folders
-# -----------------------------------------------------------------------------
-include: ['_pages']
-
+include:
+- _pages

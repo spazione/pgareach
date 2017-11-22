@@ -1,3 +1,9 @@
+---
+title: Marriott Golf Announces Hit The Green For Hope Memorial Day Weekend Promotion
+  In Support Of Pga Reach Military Veterans Nationwide
+date: 2017-05-24 00:00:00 Z
+---
+
 Marriott Golf, one of the world's premier golf operators, has teamed up with PGA REACH – the charitable foundation of the PGA of America – to launch **_Hit the Green for HOPE_**, a Memorial Day Weekend campaign in support of **_PGA HOPE_** – golf programming for United States military Veterans with disabilities.
 
 Golfers will have the opportunity to take part in the **_Hit the Green for HOPE_** promotion at 17 participating Marriott Golf properties nationwide. By donating $10, on a designated par-3 hole at each property, any golfer that hits the green on his/her tee shot receives a certificate valid for 30% off "their next purchase" in the golf shop. All participating golfers who do not hit the green will receive a certificate valid for 15% off "their next purchase" in the golf shop. The certificates are valid for merchandise only, and all certificates are valid through Dec. 31, 2016, at the golf shop of the participating property.  100% of proceeds from the campaign will be used to support and enhance **PGA HOPE **programming.
