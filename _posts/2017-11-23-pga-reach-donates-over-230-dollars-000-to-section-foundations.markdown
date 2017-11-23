@@ -2,6 +2,7 @@
 title: PGA REACH Donates Over $230,000 to Section Foundations
 date: 2017-11-23 10:21:00 Z
 thumbnail-image: "/uploads/Carolinas.jpg"
+layout: post
 ---
 
 On November 3rd, at the PGA of America Annual Meeting, PGA President, Paul Levy, and PGA REACH Senior Director, Ryan Cannon, presented PGA REACH Carolinas & the Middle Atlantic PGA Foundation with the proceeds from the National Car Rental PGA REACH Charity Pro-Am events held in their Sections in 2017.
