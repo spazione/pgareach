@@ -1,6 +1,6 @@
 ---
 title: Metropolitan PGA Section & PGA HOPE
-date: 2017-07-12 00:00:00 Z
+date: 2016-07-12 00:00:00 Z
 thumbnail-image: "/uploads/pga-hope.png"
 layout: post
 ---
