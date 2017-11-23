@@ -1,6 +1,0 @@
----
-title: test-post
-date: 2017-11-22 12:15:00 Z
----
-
-content
