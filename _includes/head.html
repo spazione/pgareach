@@ -3,7 +3,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>titolo</title>
+    {% if page.title %}
+        {% capture title_page %}{{ page.title | escape | capitalize }} - {{ site.title }}{% endcapture %}
+    {% elsif site.sitelang == "en" %}
+        {% capture title_page %}{{ page.title_en | escape | capitalize }} - {{ site.title }}{% endcapture %}
+    {% elsif site.sitelang == "ja" %}
+        {% capture title_page %}{{ page.title_ja | escape | capitalize }} - {{ site.title }}{% endcapture %}
+    {% endif %}
+
+    <title>{{ title_page }}</title>
 
     <!-- Bootstrap core CSS -->
     <link href="/css/bootstrap.css" rel="stylesheet">
