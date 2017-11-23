@@ -1,8 +1,8 @@
 ---
 title: Metropolitan PGA Section & PGA HOPE
 date: 2017-07-12 00:00:00 Z
-layout: post
 thumb: thumbnail.png
+layout: post
 ---
 
 PALM BEACH GARDENS, Fla. (May23, 2017)PGA REACH, the 501 (c)(3) charitable foundation of the PGA of America—in conjunction with the Middle Atlantic PGA Section Foundation—has selectedTajma Brown, a 2016 Hampton University graduate,for the PGA WORKS Internship program. PGA WORKSaspires to be the most valuableinternship opportunity for individuals from diverse backgrounds to garner experience in all facets of the golf industry.
@@ -31,5 +31,3 @@ Jared MinskiMastro Communications 732/469-5700jared@mastrocomm.com
 
 [1]: https://pgareach.org/pga
 [2]: https://pgareach.org/metropolitan-pga-section-pga-hope-3/undefined
-
-  
