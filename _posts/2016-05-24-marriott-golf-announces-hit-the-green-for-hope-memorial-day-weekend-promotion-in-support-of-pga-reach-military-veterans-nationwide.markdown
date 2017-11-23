@@ -1,7 +1,7 @@
 ---
 title: Marriott Golf Announces Hit The Green For Hope Memorial Day Weekend Promotion
   In Support Of Pga Reach Military Veterans Nationwide
-date: 2017-05-24 00:00:00 Z
+date: 2016-05-24 00:00:00 Z
 thumbnail-image: "/uploads/Marriott-Logo-e1497542229402.jpg"
 ---
 
