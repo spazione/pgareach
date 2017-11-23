@@ -1,6 +1,6 @@
 ---
 title: PGA REACH Donates Over $230,000 to Section Foundations
-date: 2017-11-23 10:21:00 Z
+date: 2017-11-16 10:21:00 Z
 thumbnail-image: "/uploads/Carolinas.jpg"
 layout: post
 ---
