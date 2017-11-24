@@ -31,6 +31,15 @@ navigation:
   url: "/services/diversity-inclusion/"
 - item: Press & News
   url: "/category/press-and-news/"
+slider:
+- first-line: Impacting lives through
+  second-line: gold
+  image: "https://pgareach.org/wp-content/uploads/2017/05/slider3.jpg"
+  donate-button: true
+- first-line: Lorem ipsum dolor sit
+  second-line: amet
+  image: "https://pgareach.org/wp-content/uploads/2017/05/slider3.jpg"
+  donate-button: false
 team:
 - item: Ryan Cannon
   position: Senior Director
