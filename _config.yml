@@ -1,7 +1,6 @@
 ---
 title: PGA Reach
 timezone: UTC
-<<<<<<< HEAD
 navigation:
 - text: Home
   url: /
@@ -15,8 +14,6 @@ navigation:
   url: /services/diversity-inclusion/
 - text: Press & News
   url: /category/press-and-news/
-=======
->>>>>>> 5b2f23b571d31ff7fe2d39f9899f4800bc81eb74
 collections:
   case_studies:
     title: Case Studies
