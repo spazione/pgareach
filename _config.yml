@@ -34,28 +34,28 @@ navigation:
 team:
 - item: Ryan Cannon
   position: Senior Director
-  image: 
+  image: "/uploads/Ryan-Cannon-Headshot-1.jpg"
 - item: Davis Horton
   position: Director, Development and Strategy
-  image: 
+  image: "/uploads/Davis-Horton-Headshot-1.jpg"
 - item: Kelsey Conway
   position: Program Coordinator
-  image: 
+  image: "/uploads/Kelsey-Headshot1-1.jpg"
 - item: Molly Haga
   position: Administrative Coordinator
-  image: 
+  image: "/uploads/Molly-Haga-Headshot-1.jpg"
 - item: Rachel Mabee
   position: PGA WORKS Program Specialist
-  image: 
+  image: "/uploads/rachel-headshot-e1510194576248.jpg"
 - item: Chris Nowak
   position: Military & Veteran Liason
-  image: 
+  image: "/uploads/Chris-Nowak-e1510194480619.jpg"
 description: Impacting lives through golf.
 copyright: "© 2017 The PGA of America. All rights reserved. PGA REACH is a trademark
   owned by the PGA of America"
 email: fe_cr@hotmail.com
-baseurl: ''
-url: ''
+baseurl: 
+url: 
 google_analytics: 
 plugins:
 - jekyll-paginate
