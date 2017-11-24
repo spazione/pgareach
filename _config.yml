@@ -19,34 +19,18 @@ defaults:
   values:
     layout: case-study
 navigation:
-- text: Home
+- item: Home
   url: "/"
-- text: Supporters
+- item: Supporters
   url: "/Supporters"
-- text: PGA JR League
+- item: PGA JR League
   url: "/services/youth/"
-- text: PGA Hope
+- item: PGA Hope
   url: "/services/military/"
-- text: PGA Works
+- item: PGA Works
   url: "/services/diversity-inclusion/"
-- text: Press & News
+- item: Press & News
   url: "/category/press-and-news/"
-nav:
-- text: Home
-  url: "/"
-- text: About
-  url: "/about/"
-- text: Blog
-  url: "/blog/"
-- text: Services
-  url: "/#DataDiscovery"
-- text: Case Studies
-  url: "/#CaseStudies"
-- text: Testimonials
-  url: "/#Testimonials"
-- text: Contact
-  type: mailto
-  class: MainHeader-item--contact
 description: Impacting lives through golf.
 copyright: "© 2017 The PGA of America. All rights reserved. PGA REACH is a trademark
   owned by the PGA of America"
