@@ -63,20 +63,20 @@ team:
   image: "/uploads/Chris-Nowak-e1510194480619.jpg"
 footer-first-column:
 - item: Home
-  url: /
+  url: "/"
 - item: PGA JR LEAGUE
-  url: "https://pgareach.org/services/youth/"
+  url: https://pgareach.org/services/youth/
 - item: PRESS & NEWS
-  url: "https://pgareach.org/category/press-and-news/"
+  url: https://pgareach.org/category/press-and-news/
 footer-second-column:
 - item: SUPPORTERS
-  url: "https://pgareach.org/supporters/"
+  url: https://pgareach.org/supporters/
 - item: PGA HOPE
-  url: "https://pgareach.org/services/military/"
+  url: https://pgareach.org/services/military/
 - item: PGA WORKS
-  url: "https://pgareach.org/services/diversity-inclusion/"
+  url: https://pgareach.org/services/diversity-inclusion/
 - item: ABOUT PGA OF AMERICA
-  url: "http://www.pga.com/pga-america"
+  url: http://www.pga.com/pga-america
 footer-third-column:
 - title: DONATE
   text: Make your positive impact by donating to PGA REACH today
