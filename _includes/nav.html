@@ -2,16 +2,16 @@
   {% for link in include.nav %} {% assign current = nil %} {% if page.url == link.url %} {% assign current = 'active' %} {% endif %}
   {% if link.subpages %}
   <li>
-    <a href="#">{{ link.text }}</a>
+    <a href="#">{{ link.item }}</a>
     <ul>
       {% for p in link.subpages %}
-      <li class="{{ link.class }}"><a class="{{ current }}" href='{{ site.baseurl }}{{ link.url }}'>{{ p.text }}</a></li>
+      <li class="{{ link.class }}"><a class="{{ current }}" href='{{ site.baseurl }}{{ link.url }}'>{{ p.item }}</a></li>
       {% endfor %}
     </ul>
   </li>
   {% else %}
   <li class="{{ current }} {{ link.class }}">
-    <a href='{{ site.baseurl }}{{ link.url }}'>{{ link.text }}</a>
+    <a href='{{ site.baseurl }}{{ link.url }}'>{{ link.item }}</a>
   </li>
   {% endif %}
   {% endfor %}

@@ -2,17 +2,17 @@
 title: PGA Reach
 timezone: UTC
 navigation:
-- text: Home
+- item: Home
   url: /
-- text: Supporters
+- item: Supporters
   url: /Supporters
-- text: PGA JR League
+- item: PGA JR League
   url: /services/youth/
-- text: PGA Hope
+- item: PGA Hope
   url: /services/military/
-- text: PGA Works
+- item: PGA Works
   url: /services/diversity-inclusion/
-- text: Press & News
+- item: Press & News
   url: /category/press-and-news/
 collections:
   case_studies:
