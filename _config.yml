@@ -48,20 +48,5 @@ excerpt_separator: "<!--more-->"
 keep_files:
 - ".git"
 - ".svn"
-img_path: "/assets/img/"
-case_studies_path: case-studies/
-css_path: "/assets/css/"
-main_css: style.css
-js_path: "/assets/js/"
-main_js: main.js
-jquery: false
-jquery_url: https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js
-bootstrap_url: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js
-bootstrap_ie: https://maxcdn.bootstrapcdn.com/js/ie10-viewport-bug-workaround.js
-modernizr: false
-modernizr_url: http://yastatic.net/modernizr/2.7.1/modernizr.min.js
-ie_version: false
-grids: false
-grids_url: http://grids.danieldipietro.com/assets/js/grids.js
 include:
 - _pages
