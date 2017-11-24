@@ -1,19 +1,6 @@
 ---
 title: PGA Reach
 timezone: UTC
-navigation:
-- text: Home
-  url: /
-- text: Supporters
-  url: /Supporters
-- text: PGA JR League
-  url: /services/youth/
-- text: PGA Hope
-  url: /services/military/
-- text: PGA Works
-  url: /services/diversity-inclusion/
-- text: Press & News
-  url: /category/press-and-news/
 collections:
   case_studies:
     title: Case Studies
@@ -31,6 +18,19 @@ defaults:
     type: case_studies
   values:
     layout: case-study
+navigation:
+- text: Home
+  url: "/"
+- text: Supporters
+  url: "/Supporters"
+- text: PGA JR League
+  url: "/services/youth/"
+- text: PGA Hope
+  url: "/services/military/"
+- text: PGA Works
+  url: "/services/diversity-inclusion/"
+- text: Press & News
+  url: "/category/press-and-news/"
 nav:
 - text: Home
   url: "/"
