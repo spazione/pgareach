@@ -22,7 +22,7 @@ navigation:
 - item: Home
   url: "/"
 - item: Supporters
-  url: "/Supporters"
+  url: "/supporters"
 - item: PGA JR League
   url: "/services/youth/"
 - item: PGA Hope
