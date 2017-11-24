@@ -59,6 +59,25 @@ team:
 - item: Chris Nowak
   position: Military & Veteran Liason
   image: "/uploads/Chris-Nowak-e1510194480619.jpg"
+footer-first-column:
+- item: Home
+  url: /
+- item: PGA JR LEAGUE
+  url: "https://pgareach.org/services/youth/"
+- item: PRESS & NEWS
+  url: "https://pgareach.org/category/press-and-news/"
+footer-second-column:
+- item: SUPPORTERS
+  url: "https://pgareach.org/supporters/"
+- item: PGA HOPE
+  url: "https://pgareach.org/services/military/"
+- item: PGA WORKS
+  url: "https://pgareach.org/services/diversity-inclusion/"
+- item: ABOUT PGA OF AMERICA
+  url: "http://www.pga.com/pga-america"
+footer-third-column:
+- title: DONATE
+  text: Make your positive impact by donating to PGA REACH today
 description: Impacting lives through golf.
 brochure-asset: "/uploads/PGA-REACH-Brochure1.pdf"
 copyright: "© 2017 The PGA of America. All rights reserved. PGA REACH is a trademark

@@ -49,20 +49,19 @@
           <div class="footer_link">
             <ul>
               <div class="menu-footer-first-menu-container">
-                <ul id="menu-footer-first-menu" class="menu">
-                  <li id="menu-item-223" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-223 active "><a href="https://pgareach.org/">Home</a></li>
-                  <li id="menu-item-335" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-335"><a href="https://pgareach.org/services/youth/">PGA JR LEAGUE</a></li>
-                  <li id="menu-item-1159" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1159"><a href="https://pgareach.org/category/press-and-news/">PRESS &amp; NEWS</a></li>
+                <ul>
+                  {% for link in site.footer-first-column %}
+                  <li><a href="{{ link.url }}">{{ link.item }}</a></li>
+                  {% endfor %}
                 </ul>
               </div>
             </ul>
             <ul>
               <div class="menu-fotoer-second-menu-container">
-                <ul id="menu-fotoer-second-menu" class="menu">
-                  <li id="menu-item-1158" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1158"><a href="https://pgareach.org/supporters/">SUPPORTERS</a></li>
-                  <li id="menu-item-230" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-230"><a href="https://pgareach.org/services/military/">PGA HOPE</a></li>
-                  <li id="menu-item-231" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-231"><a href="https://pgareach.org/services/diversity-inclusion/">PGA WORKS</a></li>
-                  <li id="menu-item-1161" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1161"><a href="http://www.pga.com/pga-america">ABOUT PGA OF AMERICA</a></li>
+                <ul>
+                  {% for link in site.footer-second-column %}
+                  <li><a href="{{ link.url }}">{{ link.item }}</a></li>
+                  {% endfor %}
                 </ul>
               </div>
             </ul>
@@ -80,8 +79,10 @@
         <div class="col-xs-12 col-sm-4">
           <div class="footer_donate">
             <div class="textwidget">
-              <h2>DONATE</h2>
-              <p style="margin-top:2px;">Make your positive impact by donating to PGA REACH today</p>
+              {% for link in site.footer-third-column %}
+              <h2>{{ link.title }}</h2>
+              <p style="margin-top:2px;">{{ link.text }}</p>
+              {% endfor %}
               <a href="https://pgareach.org/pga/make-a-donation/"> <i class="fa fa-heart-o" aria-hidden="true"></i> Donate Now</a>
             </div>
           </div>
@@ -90,7 +91,9 @@
     </div>
     <div class="copy_right">
       <div class="container">
-        <p>© 2017 The PGA of America. All rights reserved. PGA REACH is a trademark owned by the PGA of America</p>
+        {% if site.copyright %}
+        <p>{{ site.copyright }}</p>
+        {% endif %}
       </div>
     </div>
   </footer>
