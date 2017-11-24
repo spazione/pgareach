@@ -1,6 +1,7 @@
 ---
 title: PGA Reach
 timezone: UTC
+<<<<<<< HEAD
 navigation:
 - text: Home
   url: /
@@ -14,6 +15,8 @@ navigation:
   url: /services/diversity-inclusion/
 - text: Press & News
   url: /category/press-and-news/
+=======
+>>>>>>> 5b2f23b571d31ff7fe2d39f9899f4800bc81eb74
 collections:
   case_studies:
     title: Case Studies
@@ -31,6 +34,22 @@ defaults:
     type: case_studies
   values:
     layout: case-study
+nav:
+- text: Home
+  url: "/"
+- text: About
+  url: "/about/"
+- text: Blog
+  url: "/blog/"
+- text: Services
+  url: "/#DataDiscovery"
+- text: Case Studies
+  url: "/#CaseStudies"
+- text: Testimonials
+  url: "/#Testimonials"
+- text: Contact
+  type: mailto
+  class: MainHeader-item--contact
 description: Impacting lives through golf.
 copyright: "© 2017 The PGA of America. All rights reserved. PGA REACH is a trademark
   owned by the PGA of America"
@@ -63,4 +82,3 @@ keep_files:
 - ".svn"
 include:
 - _pages
-
