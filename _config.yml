@@ -21,7 +21,7 @@ defaults:
 navigation:
 - item: Home
   url: "/"
-- item: Supporters
+- item: supporters
   url: "/supporters"
 - item: PGA JR League
   url: "/services/youth/"
