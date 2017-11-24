@@ -1,6 +1,22 @@
 ---
 title: PGA Reach
 timezone: UTC
+nav:
+- text: Home
+  url: /
+- text: About
+  url: /about/
+- text: Blog
+  url: /blog/
+- text: Services
+  url: '/#DataDiscovery'
+- text: Case Studies
+  url: '/#CaseStudies'
+- text: Testimonials
+  url: '/#Testimonials'
+- text: Contact
+  type: mailto
+  class: MainHeader-item--contact
 collections:
   case_studies:
     title: Case Studies
@@ -50,3 +66,4 @@ keep_files:
 - ".svn"
 include:
 - _pages
+
