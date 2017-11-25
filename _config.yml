@@ -19,16 +19,15 @@ defaults:
   values:
     layout: case-study
 - scope:
-    path: ""
-    type: "pages"
+    path: ''
+    type: pages
   values:
-    layout: "page"
+    layout: page
     modules:
     - module: 12-col
       container:
       - module: 6-col
-        text: |-
-          Lorem ipsum
+        text: Lorem ipsum
       - module: 6-col
         image: 
 navigation:
