@@ -24,11 +24,11 @@ defaults:
   values:
     layout: page
     modules:
-    - module: 12-col
+    - module: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
       container:
-      - module: 6-col
+      - module: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
         text: Lorem ipsum
-      - module: 6-col
+      - module: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
         image: 
 navigation:
 - item: Home
