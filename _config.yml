@@ -20,7 +20,7 @@ defaults:
     layout: case-study
 - scope:
     path: ""
-    type: "page"
+    type: "pages"
   values:
     layout: "page"
     modules:
@@ -31,7 +31,7 @@ defaults:
           Lorem ipsum
       - module: 6-col
         image: 
-  navigation:
+navigation:
 - item: Home
   url: "/"
 - item: supporters
