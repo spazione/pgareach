@@ -9,7 +9,6 @@ blocks:
   block-columns: 12
   columns: 6
   image: "/uploads/img.jpg"
-  columns: 6
   text: testo
 layout: post
 ---
