@@ -18,7 +18,20 @@ defaults:
     type: case_studies
   values:
     layout: case-study
-navigation:
+- scope:
+    path: ""
+    type: "page"
+  values:
+    layout: "page"
+    modules:
+    - module: 12-col
+      container:
+      - module: 6-col
+        text: |-
+          Lorem ipsum
+      - module: 6-col
+        image: 
+  navigation:
 - item: Home
   url: "/"
 - item: supporters
