@@ -3,9 +3,10 @@ title: new-page
 date: 2017-11-25 16:25:00 Z
 modules:
 - module: 12
+  video: "https://player.vimeo.com/video/230451690?autoplay=1&title=0&byline=0"
   container:
   - module: 6
-    image: "/uploads/Chris-Nowak-e1510194480619.jpg"
+    image: "/uploads/Marriott-Logo-e1497542229402.jpg"
   - module: 6
     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
