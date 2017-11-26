@@ -21,10 +21,6 @@ defaults:
 - scope:
     path: ''
     type: pages
-  values:
-    layout: page
-    modules:
-    - module: 12-col
 navigation:
 - item: Home
   url: "/"
