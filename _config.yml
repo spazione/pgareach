@@ -1,0 +1,121 @@
+---
+title: PGA Reach
+timezone: UTC
+collections:
+  case_studies:
+    title: Case Studies
+    output: true
+    permalink: "/case-studies/:categories/:title.html"
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: case_studies
+  values:
+    layout: case-study
+navigation:
+- item: Home
+  url: "/"
+- item: supporters
+  url: "/supporters"
+- item: PGA JR League
+  url: "/services/youth/"
+- item: PGA Hope
+  url: "/services/military/"
+- item: PGA Works
+  url: "/services/diversity-inclusion/"
+- item: Press & News
+  url: "/category/press-and-news/"
+slider:
+- first-line: Impacting lives through
+  second-line: gold
+  image: https://pgareach.org/wp-content/uploads/2017/05/slider3.jpg
+  donate-button: true
+- first-line: Lorem ipsum dolor sit
+  second-line: amet
+  image: https://pgareach.org/wp-content/uploads/2017/05/slider3.jpg
+  donate-button: false
+intro-text-block-one: Saturday, November 11 – Veterans Day – served as the inaugural
+  PGA National Day of HOPE. This HERO video, featuring Jack Nicklaus, highlights the
+  positive impact that PGA HOPE has on the lives of our Military Veterans.
+intro-text-block-two: PGA REACH is the 501(c)(3) charitable foundation of the PGA
+  of America.  The mission of PGA REACH is to positively impact the lives of youth,
+  military, and diverse populations by enabling access to PGA Professionals, PGA Sections
+  and the game of golf.
+intro-video-url: https://vimeo.com/230451690
+team:
+- item: Ryan Cannon
+  position: Senior Director
+  image: "/uploads/Ryan-Cannon-Headshot-1.jpg"
+- item: Davis Horton
+  position: Director, Development and Strategy
+  image: "/uploads/Davis-Horton-Headshot-1.jpg"
+- item: Kelsey Conway
+  position: Program Coordinator
+  image: "/uploads/Kelsey-Headshot1-1.jpg"
+- item: Molly Haga
+  position: Administrative Coordinator
+  image: "/uploads/Molly-Haga-Headshot-1.jpg"
+- item: Rachel Mabee
+  position: PGA WORKS Program Specialist
+  image: "/uploads/rachel-headshot-e1510194576248.jpg"
+- item: Chris Nowak
+  position: Military & Veteran Liason
+  image: "/uploads/Chris-Nowak-e1510194480619.jpg"
+footer-first-column:
+- item: Home
+  url: "/"
+- item: PGA JR LEAGUE
+  url: https://pgareach.org/services/youth/
+- item: PRESS & NEWS
+  url: https://pgareach.org/category/press-and-news/
+footer-second-column:
+- item: SUPPORTERS
+  url: https://pgareach.org/supporters/
+- item: PGA HOPE
+  url: https://pgareach.org/services/military/
+- item: PGA WORKS
+  url: https://pgareach.org/services/diversity-inclusion/
+- item: ABOUT PGA OF AMERICA
+  url: http://www.pga.com/pga-america
+footer-third-column:
+- title: DONATE
+  text: Make your positive impact by donating to PGA REACH today
+description: Impacting lives through golf.
+brochure-asset: "/uploads/PGA-REACH-Brochure1.pdf"
+copyright: "© 2017 The PGA of America. All rights reserved. PGA REACH is a trademark
+  owned by the PGA of America"
+email: fe_cr@hotmail.com
+baseurl: 
+url: 
+google_analytics: 
+plugins:
+- jekyll-paginate
+- jekyll-tidy
+- jekyll-paginate-category
+- jekyll-sitemap
+- jekyll-feed
+jekyll_tidy:
+  compress_html: false
+paginate: 5000
+permalink: "/:categories/:title.html"
+category_dir: "/"
+category_layout: _templates/category.html
+sass:
+  style: expanded
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+excerpt_separator: "<!--more-->"
+keep_files:
+- ".git"
+- ".svn"
+include:
+- _pages

@@ -1,0 +1,29 @@
+<div class="flexslider">
+  <div class="flex-viewport">
+    <ul class="slides">
+      {% for slide in site.slider %}
+      <li>
+        {% if slide.image %}
+        <img src="{{ slide.image }}">
+        {% endif %}
+        <span>
+          {% if slide.first-line %}
+          <h3>{{ slide.first-line }}</h3>
+          {% endif %}
+          {% if slide.second-line %}
+          <h2>{{ slide.second-line }}</h2>
+          {% endif %}
+          {% if slide.donate-button %}
+          <a href="https://pgareach.org/pga/make-a-donation/"><i class="fa fa-heart-o"></i> DONATE Now </a>
+          {% endif %}
+        </span>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <ol class="flex-control-nav flex-control-paging"></ol>
+  <ul class="flex-direction-nav">
+    <li class="flex-nav-prev"><a class="flex-prev flex-disabled" href="#" tabindex="-1">Previous</a></li>
+    <li class="flex-nav-next"><a class="flex-next flex-disabled" href="#" tabindex="-1">Next</a></li>
+  </ul>
+</div>

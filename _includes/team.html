@@ -1,0 +1,30 @@
+<div class="vc_row wpb_row vc_row-fluid">
+  <div class="wpb_column vc_column_container vc_col-sm-12">
+    <div class="vc_column-inner ">
+      <div class="wpb_wrapper">
+        <div class="team_section">
+          <div class="container">
+            <h2 class="team_title">Meet The Team</h2>
+            <h3 class="team_title2"> PGA REACH STAFF</h3>
+            <div id="team" class="owl-carousel owl-theme">
+              {% for person in site.team %}
+              <div class="owl-item">
+                <div class="item">
+                  <span><img src="{{ person.image }}" class="img-responsive" alt="{{ person.item }}"></span>
+                  <h2>{{ person.item }}</h2>
+                  <p>{{ person.position }}<br></p>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+            {% if site.brochure-asset %}
+            <div class="full">
+              <a href="{{ site.brochure-asset }}" target="_blank">Download Brochure &nbsp; <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+            </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
