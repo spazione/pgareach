@@ -3,7 +3,7 @@ title: new-page
 date: 2017-11-25 16:25:00 Z
 modules:
 - module: 12
-  video: "https://test"
+  video: https://test
   container:
   - module: 7
     image: "/uploads/Marriott-Logo-e1497542229402.jpg"
