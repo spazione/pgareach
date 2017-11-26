@@ -3,7 +3,7 @@ title: new-page
 date: 2017-11-25 16:25:00 Z
 modules:
 - module: 12
-  video: "https://player.vimeo.com/video/230451690?autoplay=1&title=0&byline=0"
+  video: https://player.vimeo.com/video/230451690?autoplay=1&title=0&byline=0
   container:
   - module: 7
     image: "/uploads/Marriott-Logo-e1497542229402.jpg"
