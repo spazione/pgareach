@@ -24,6 +24,5 @@ modules:
       in culpa qui officia deserunt mollit anim id est laborum.
   - module: 8
     image: "/uploads/Marriott-Logo-e1497542229402.jpg"
-
 ---
 
