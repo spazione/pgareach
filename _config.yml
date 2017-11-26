@@ -25,11 +25,6 @@ defaults:
     layout: page
     modules:
     - module: 12-col
-      container:
-      - module: 6-col
-        text: Lorem ipsum
-      - module: 6-col
-        image: 
 navigation:
 - item: Home
   url: "/"
