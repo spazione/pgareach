@@ -1,7 +1,7 @@
 ---
 title: Top finishers at Junior Invitational at Sage Valley earn exemptions into Boys
   Junior PGA Championship
-date: 2017-06-21 21:00:00 Z
+date: 2017-07-21 21:00:00 Z
 thumbnail-image: "/uploads/sagevalley.jpg"
 ---
 
