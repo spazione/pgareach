@@ -19,6 +19,15 @@
       <loc>http://0.0.0.0:4000/new-page</loc>
     </url>
     <url>
+      <loc>http://0.0.0.0:4000/services/military/</loc>
+    </url>
+    <url>
+      <loc>http://0.0.0.0:4000/services/youth/</loc>
+    </url>
+    <url>
+      <loc>http://0.0.0.0:4000/services/diversity-inclusion/</loc>
+    </url>
+    <url>
       <loc>http://0.0.0.0:4000/supporters</loc>
     </url>
   </urlset>

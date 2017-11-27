@@ -3,13 +3,16 @@ title: new-page
 date: 2017-11-25 16:25:00 Z
 modules:
 - module: 12
+  custom:
   content:
   - video: https://player.vimeo.com/video/206147401
   - container:
     - module: 4
+      custom: vc_custom_1495780582092
       content:
       - image: "/uploads/inner-logoimg.jpg"
     - module: 8
+      custom: vc_custom_1495780538352
       content:
       - text: |-
           PGA Junior League Golf is a fun, social and inclusive opportunity for boys and girls, ages 13 and under, to learn and enjoy the game of golf from PGA & LPGA Professionals.
