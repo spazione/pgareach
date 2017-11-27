@@ -1,6 +1,6 @@
 ---
 title: Congressional Country Club Helping Veterans Through PGA HOPE
-date: 2017-06-19 20:40:00 Z
+date: 2017-07-19 20:40:00 Z
 thumbnail-image: "/uploads/congressional-cc-pgahope-1024x576.jpg"
 ---
 
