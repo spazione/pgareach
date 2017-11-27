@@ -1,7 +1,7 @@
 ---
 title: PGA of America Donates $100,000 to Benton Harbor Promise
 date: 2016-05-27 10:21:00 Z
-thumbnail-image: "/uploads/Carolinas.jpg"
+thumbnail-image: "/uploads/GovtRelations_Check-1.jpg"
 layout: post
 ---
 
