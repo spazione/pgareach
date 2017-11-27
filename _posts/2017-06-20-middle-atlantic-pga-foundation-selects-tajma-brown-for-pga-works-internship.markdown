@@ -1,6 +1,6 @@
 ---
 title: Middle Atlantic PGA Foundation selects Tajma Brown for PGA WORKS Internship
-date: 2017-11-27 20:48:00 Z
+date: 2017-06-20 20:48:00 Z
 thumbnail-image: "/uploads/Tajma.jpg"
 ---
 
