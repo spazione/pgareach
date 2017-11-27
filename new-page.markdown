@@ -1,10 +1,9 @@
 ---
 title: new-page
 date: 2017-11-25 16:25:00 Z
-layout: composer
 modules:
 - module: 12
-  video: https://test
+  video: https://player.vimeo.com/video/206147401
   container:
   - module: 7
     image: "/uploads/Marriott-Logo-e1497542229402.jpg"
@@ -23,5 +22,6 @@ modules:
       in culpa qui officia deserunt mollit anim id est laborum.
   - module: 8
     image: "/uploads/Marriott-Logo-e1497542229402.jpg"
+layout: composer
 ---
 
