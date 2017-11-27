@@ -6,78 +6,85 @@ layout: default
 {% if item.module %}
 <div class="vc_row wpb_row vc_row-fluid">
   <div class="wpb_column vc_column_container vc_col-sm-{{ item.module }}">
-    <div class="vc_column-inner">
+    <div class="vc_column-inner {{ item.custom }}">
       <div class="wpb_wrapper">
 
-        {% if item.video %}
-        <div class="wpb_text_column wpb_content_element container">
-          <div class="vc_column-inner">
+        {% for sub-item in item.content %}
+        {% if sub-item.video %}
+        <div class="wpb_text_column wpb_content_element">
+          <div class="vc_column-inner {{ sub-item.custom }}">
             <div class="wpb_wrapper">
-              <iframe class="embed-responsive-item" src="{{ item.video }}" width="100%" height="300&quot;" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+              <iframe class="embed-responsive-item" src="{{ sub-item.video }}" width="100%" height="300&quot;" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
             </div>
           </div>
         </div>
-        {% elsif item.text %}
-        <div class="wpb_text_column wpb_content_element container">
-          <div class="vc_column-inner">
+        {% endif %}
+        {% if sub-item.text %}
+        <div class="wpb_text_column wpb_content_element">
+          <div class="vc_column-inner {{ sub-item.custom }}">
             <div class="wpb_wrapper">
-              {{ sub-item.text }}
+              {{ sub-item.text | markdownify }}
             </div>
           </div>
         </div>
-        {% elsif item.image %}
-        <div class="wpb_single_image wpb_content_element container">
+        {% endif %}
+        {% if sub-item.image %}
+        <div class="wpb_single_image wpb_content_element">
           <figure class="wpb_wrapper vc_figure">
             <div class="vc_single_image-wrapper vc_box_border_grey">
               <img src="{{ sub-item.image }}">
             </div>
           </figure>
         </div>
-        
-        {% elsif item.container %}
+        {% endif %}
+        {% if sub-item.container %}
         <div class="container">
-          {% for sub-item in item.container %}
-          <div class="vc_row wpb_row vc_row-fluid">
-            <div class="wpb_column vc_column_container vc_col-sm-{{ item.module }}">
-              <div class="vc_column-inner">
-                <div class="wpb_wrapper">
+          {% for sub-item in sub-item.container %}
+          {% if sub-item.module %}
 
-                  {% if sub-item.video %}
-                  <div class="wpb_text_column wpb_content_element container">
-                    <div class="vc_column-inner">
-                      <div class="wpb_wrapper">
-                        <iframe class="embed-responsive-item" src="{{ sub-item.video }}" width="100%" height="300&quot;" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-                      </div>
+          <div class="wpb_column vc_column_container vc_col-sm-{{ sub-item.module }}">
+            <div class="vc_column-inner {{ sub-item.custom }}">
+              <div class="wpb_wrapper">
+
+                {% for sub-item in sub-item.content %}
+                {% if sub-item.video %}
+                <div class="wpb_text_column wpb_content_element">
+                  <div class="vc_column-inner {{ sub-item.custom }}">
+                    <div class="wpb_wrapper">
+                      <iframe class="embed-responsive-item" src="{{ sub-item.video }}" width="100%" height="300&quot;" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
                     </div>
                   </div>
-                  
-                  {% elsif sub-item.text %}
-                  <div class="wpb_text_column wpb_content_element container">
-                    <div class="vc_column-inner">
-                      <div class="wpb_wrapper">
-                        {{ sub-item.text }}
-                      </div>
-                    </div>
-                  </div>
-                  
-                  {% elsif sub-item.image %}
-                  <div class="wpb_single_image wpb_content_element container">
-                    <figure class="wpb_wrapper vc_figure">
-                      <div class="vc_single_image-wrapper vc_box_border_grey">
-                        <img src="{{ sub-item.image }}">
-                      </div>
-                    </figure>
-                  </div>
-                  {% endif %}
-                  
                 </div>
+                {% endif %}
+                {% if sub-item.text %}
+                <div class="wpb_text_column wpb_content_element">
+                  <div class="vc_column-inner {{ sub-item.custom }}">
+                    <div class="wpb_wrapper">
+                      {{ sub-item.text | markdownify }}
+                    </div>
+                  </div>
+                </div>
+                {% endif %}
+                {% if sub-item.image %}
+                <div class="wpb_single_image wpb_content_element">
+                  <figure class="wpb_wrapper vc_figure">
+                    <div class="vc_single_image-wrapper vc_box_border_grey">
+                      <img src="{{ sub-item.image }}">
+                    </div>
+                  </figure>
+                </div>
+                {% endif %}
+                {% endfor %}
+
               </div>
             </div>
           </div>
+
+          {% endif %}
           {% endfor %}
         </div>
         {% endif %}
-        
+        {% endfor %}
       </div>
     </div>
   </div>
