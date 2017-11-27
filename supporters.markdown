@@ -1,7 +1,8 @@
 ---
 title: Supporters
 date: 2017-11-26 21:11:00 Z
-layout: supporters
+permalink: supporters
+layout: page
 ---
 
-test
+test lorem
