@@ -1,7 +1,7 @@
 ---
 title: Marriott Golf Raises More than $20K on Opening Weekend of 2017 Hit the Green
   for HOPE Program
-date: 2017-06-25 21:01:00 Z
+date: 2017-07-25 21:01:00 Z
 thumbnail-image: "/uploads/26384255263_fbf7ff356b_k-Copy-2.jpg"
 ---
 
