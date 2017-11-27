@@ -58,8 +58,20 @@ gallery:
     full-image: "/uploads/MC.05.14.17.764.jpg"
     thumbnail-image: "/uploads/1932581559.jpg"
 - image:
-    full-image: 
-    thumbnail-image: 
+    full-image: "/uploads/MC.05.14.17.794.jpg"
+    thumbnail-image: "/uploads/4179879893.jpg"
+- image:
+    full-image: "/uploads/MC.05.14.17.812.jpg"
+    thumbnail-image: "/uploads/3330167748.jpg"
+- image:
+    full-image: "/uploads/MC.05.14.17.865.jpg"
+    thumbnail-image: "/uploads/4252026279.jpg"
+- image:
+    full-image: "/uploads/MC.05.14.17.883.jpg"
+    thumbnail-image: "/uploads/881734302.jpg"
+- image:
+    full-image: "/uploads/MC.05.14.17.889.jpg"
+    thumbnail-image: "/uploads/4041530597.jpg"
 layout: pga-works
 ---
 
