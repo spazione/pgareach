@@ -21,6 +21,9 @@ gallery:
 - image:
     full-image: "/uploads/MC.05.11.17.371.jpg"
     thumbnail-image: "/uploads/1272308299.jpg"
+- image:
+    full-image: "/uploads/MC.05.11.17.389.jpg"
+    thumbnail-image: "/uploads/304333980.jpg"
 layout: pga-works
 ---
 
