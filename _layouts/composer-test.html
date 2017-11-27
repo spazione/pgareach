@@ -1,0 +1,93 @@
+---
+layout: default
+---
+
+{% for item in page.modules %}
+{% if item.module %}
+<div class="vc_row wpb_row vc_row-fluid">
+  <div class="wpb_column vc_column_container vc_col-sm-{{ item.module }}">
+    <div class="vc_column-inner">
+      <div class="wpb_wrapper">
+
+        {% for sub-item in item.content %}
+        {% if sub-item.video %}
+        <div class="wpb_text_column wpb_content_element container">
+          <div class="vc_column-inner">
+            <div class="wpb_wrapper">
+              <iframe class="embed-responsive-item" src="{{ sub-item.video }}" width="100%" height="300&quot;" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+            </div>
+          </div>
+        </div>
+        {% endif %}
+        {% if sub-item.text %}
+        <div class="wpb_text_column wpb_content_element container">
+          <div class="vc_column-inner">
+            <div class="wpb_wrapper">
+              {{ sub-item.text }}
+            </div>
+          </div>
+        </div>
+        {% endif %}
+        {% if sub-item.image %}
+        <div class="wpb_single_image wpb_content_element container">
+          <figure class="wpb_wrapper vc_figure">
+            <div class="vc_single_image-wrapper vc_box_border_grey">
+              <img src="{{ sub-item.image }}">
+            </div>
+          </figure>
+        </div>
+        {% endif %}
+        {% endfor %}
+
+
+
+        {% if item.container %}
+        <div class="container">
+          {% for sub-item in item.container %}
+          <div class="vc_row wpb_row vc_row-fluid">
+            <div class="wpb_column vc_column_container vc_col-sm-{{ item.module }}">
+              <div class="vc_column-inner">
+                <div class="wpb_wrapper">
+
+                  {% if sub-item.video %}
+                  <div class="wpb_text_column wpb_content_element container">
+                    <div class="vc_column-inner">
+                      <div class="wpb_wrapper">
+                        <iframe class="embed-responsive-item" src="{{ sub-item.video }}" width="100%" height="300&quot;" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                      </div>
+                    </div>
+                  </div>
+                  {% endif %}
+                  {% if sub-item.text %}
+                  <div class="wpb_text_column wpb_content_element container">
+                    <div class="vc_column-inner">
+                      <div class="wpb_wrapper">
+                        {{ sub-item.text }}
+                      </div>
+                    </div>
+                  </div>
+                  {% endif %}
+                  {% if sub-item.image %}
+                  <div class="wpb_single_image wpb_content_element container">
+                    <figure class="wpb_wrapper vc_figure">
+                      <div class="vc_single_image-wrapper vc_box_border_grey">
+                        <img src="{{ sub-item.image }}">
+                      </div>
+                    </figure>
+                  </div>
+                  {% endif %}
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+        {% endif %}
+        
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endfor %}
