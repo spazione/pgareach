@@ -7,8 +7,8 @@ gallery:
     full-image: "/uploads/MC.05.11.17.011.jpg"
     thumbnail-image: "/uploads/2574371171.jpg"
 - image:
-    full-image:
-    thumbnail-image:
+    full-image: 
+    thumbnail-image: 
 layout: pga-works
 ---
 
