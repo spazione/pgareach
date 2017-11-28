@@ -6,11 +6,11 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-sm-2 news">
-        <img src="{{ post.thumbnail-image }}" class="img-responsive" alt="Deloitte Professionals Lend a Helping Hand to PGA HOPE  in Support of Our Nation’s Military Veterans">
+        <img src="{{ page.thumbnail-image }}" class="img-responsive" alt="Deloitte Professionals Lend a Helping Hand to PGA HOPE  in Support of Our Nation’s Military Veterans">
       </div>
       <div class="col-sm-7">
-        <h2>{{ post.title }}</h2>
-        <h4>{{ post.date | date: "%b %-d, %Y" }}</h4>
+        <h2>{{ page.title }}</h2>
+        <h4>{{ page.date | date: "%b %-d, %Y" }}</h4>
         {{ content }}
       </div>
       <div class="col-sm-3 sidebarsection">
