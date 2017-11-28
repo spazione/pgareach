@@ -18,6 +18,12 @@ defaults:
     type: case_studies
   values:
     layout: case-study
+- scope:
+    path: ''
+    type: post
+  values:
+    layout: post
+    thumbnail-image: 
 navigation:
 - item: Home
   url: "/"
