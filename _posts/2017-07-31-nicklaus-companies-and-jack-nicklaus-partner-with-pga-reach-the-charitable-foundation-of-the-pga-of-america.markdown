@@ -5,9 +5,9 @@ date: 2017-07-31 21:14:00 Z
 thumbnail-image: "/uploads/PGA_Reach_JM17-_153.jpg"
 ---
 
-| ----- |
-|  _Nicklaus Companies Named a Trustee and Official Partner of PGA REACH and the PGA of America_ |  
-|  PALM BEACH GARDENS, Fla. (July 31, 2017) — PGA REACH, the 501 (c)(3) charitable foundation of the PGA of America, and the Nicklaus Companies announced today a historic partnership to support PGA REACH in its mission of impacting lives by enabling access to PGA Members, PGA Sections, and the game of golf.
+_Nicklaus Companies Named a Trustee and Official Partner of PGA REACH and the PGA of America_ 
+
+PALM BEACH GARDENS, Fla. (July 31, 2017) — PGA REACH, the 501 (c)(3) charitable foundation of the PGA of America, and the Nicklaus Companies announced today a historic partnership to support PGA REACH in its mission of impacting lives by enabling access to PGA Members, PGA Sections, and the game of golf.
 
 The partnership includes financial support from the Nicklaus Companies, as well as a personal commitment from its founder, Jack Nicklaus, to make an impact on all three areas of focus for PGA REACH: Youth, Military, and Diversity & Inclusion. The Nicklaus Companies will become a PGA REACH Trustee, and Jack Nicklaus will serve as a spokesperson for PGA REACH. He will also help promote PGA Junior League Golf, which is a fun, social and inclusive opportunity for boys and girls to learn and enjoy the game of golf in a team environment under the direction of PGA and LPGA Professionals.
 
