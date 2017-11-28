@@ -5,9 +5,6 @@ date: 2017-11-27 21:17:00 Z
 thumbnail-image: "/uploads/josh.jpg"
 ---
 
-2017">https://pgareach.org/wp-content/uploads/2017/08/2017-PGA-HOPE-SECRETARY-CUP-SOCIAL1.mp4">2017 PGA HOPE SECRETARY'S CUP
-
-
 Kicking off PGA Championship week in the Queen City, the second annual Secretary's Cup attracted a contingent of 25 Veterans representing PGA HOPE chapters in the Carolinas, Metropolitan and New Jersey PGA Sections at Venerable Charlotte Country Club Sunday for a nine-hole scramble event.
 
 The Veterans were accompanied by five PGA Professionals in an event that  developed out of a partnership between the PGA of America and the Department of Veterans Affairs, and is named in tribute to the Secretary of the Veterans Administration. PGA HOPE (Helping Our Patriots Everywhere) is a rehabilitative program designed to introduce golf to Veterans with disabilities to enhance their physical, mental, social and emotional well-being.
