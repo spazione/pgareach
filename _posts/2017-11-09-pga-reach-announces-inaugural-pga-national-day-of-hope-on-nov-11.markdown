@@ -1,6 +1,6 @@
 ---
 title: PGA REACH Announces Inaugural PGA National Day of HOPE on Nov. 11
-date: 2017-11-30 16:11:00 Z
+date: 2017-11-09 16:11:00 Z
 thumbnail-image: "/uploads/PGACH.08.06.17.237-e1510193843893.jpg"
 ---
 
