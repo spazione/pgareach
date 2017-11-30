@@ -1,7 +1,7 @@
 ---
 title: Veterans celebrate PGA HOPE’s theme of healing as the Second Annual Secretary’s
   Cup visits Charlotte Country Club
-date: 2017-11-27 21:17:00 Z
+date: 2017-08-07 21:17:00 Z
 thumbnail-image: "/uploads/josh.jpg"
 ---
 
