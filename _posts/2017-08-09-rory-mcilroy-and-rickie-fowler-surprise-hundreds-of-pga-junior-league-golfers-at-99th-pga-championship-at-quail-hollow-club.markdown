@@ -2,6 +2,7 @@
 title: Rory McIlroy and Rickie Fowler Surprise Hundreds of PGA Junior League Golfers
   at 99th PGA Championship at Quail Hollow Club
 date: 2017-08-09 15:59:00 Z
+thumbnail-image: "/uploads/IMG_1379-e1510193490651.jpg"
 ---
 
 It looked like a virtual sea of PGA Junior League Golfers in front of the "monster board" around the 18th Green at the 99th PGA Championship at Quail Hollow Club on Monday. More than 300 girls and boys from across the Carolinas PGA Section took part in a surprise Q&A session with PGA Junior League Golf Ambassadors Rory McIlory and Rickie Fowler, which was hosted by Golf Channel's Michael Breed.  PGA Vice President Suzy Whaley also joined in the fun.
