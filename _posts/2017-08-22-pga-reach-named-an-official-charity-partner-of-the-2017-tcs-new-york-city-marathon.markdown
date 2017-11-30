@@ -1,6 +1,6 @@
 ---
 title: PGA REACH Named An Official Charity Partner Of The 2017 TCS New York City Marathon
-date: 2017-11-30 16:03:00 Z
+date: 2017-08-22 16:03:00 Z
 ---
 
 PGA REACH, the 501(c)(3) charitable foundation of the PGA of America, whose mission is to impact lives through golf, has been named an Official Charity Partner of the 2017 TCS New York City Marathon.  More than 350 official charity partners will be part of the 2017 TCS New York City Marathon, which offers a unique and wide-reaching platform to raise awareness for important causes, such as PGA REACH.  
