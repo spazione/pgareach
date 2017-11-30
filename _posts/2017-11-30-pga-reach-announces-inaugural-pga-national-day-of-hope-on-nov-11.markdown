@@ -1,6 +1,7 @@
 ---
 title: PGA REACH Announces Inaugural PGA National Day of HOPE on Nov. 11
 date: 2017-11-30 16:11:00 Z
+thumbnail-image: "/uploads/PGACH.08.06.17.237-e1510193843893.jpg"
 ---
 
 _PGA HOPE (Helping Our Patriots Everywhere) Golf Programs Continue to __Expand Nationwide; Inspiring 'Hero' Video Featuring Jack Nicklaus Highlights Impact of PGA HOPE on Military Veterans._
