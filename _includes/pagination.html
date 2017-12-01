@@ -1,0 +1,32 @@
+{% if paginator.total_pages > 1 %}
+<aside class="entries-sidebar">
+    <nav class="entries-nav">
+        <ul class="pagination" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+            {% comment %}Previus button{% endcomment %}
+            {% if paginator.previous_page %}
+                <li class="page-item" itemprop="url"><a class="page-link" aria-label="Previous" href="/blog{{ paginator.previous_page_path | prepend: category_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a></li>
+            {% else %}
+                <li class="page-item disabled"><span class="page-link">&laquo; Prev</span></li>
+            {% endif %}
+            {% comment %}Paginator{% endcomment %}
+            {% for page in (1..paginator.total_pages) %}
+                {% if page == paginator.page %}
+                    <li class="page-item active" itemprop="url"><a class="page-link" href="#">{{ page }}</a></li>
+                {% elsif page == 1 %}
+                    <li class="page-item" itemprop="url"><a class="page-link" href="/blog{{ site.paginate_path | prepend: category_path | prepend: site.baseurl | replace: '//', '/' | replace: 'page-:num', "" }}">{{ page }}</a></li>
+                {% else %}
+                    <li class="page-item" itemprop="url"><a class="page-link" href="/blog{{ site.paginate_path | prepend: category_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+                {% endif %}
+            {% endfor %}
+            {% comment %}Next button{% endcomment %}
+            {% if paginator.next_page %}
+                <li class="page-item" itemprop="url"><a class="page-link" href="/blog{{ paginator.next_page_path | prepend: category_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a></li>
+            {% else %}
+                <li class="page-item disabled"><span class="page-link">Next &raquo;</span></li>
+            {% endif %}
+        </ul>
+    </nav>
+</aside>
+{% endif %}
+
+

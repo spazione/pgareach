@@ -109,10 +109,9 @@ plugins_dir:
 - jekyll-feed
 jekyll_tidy:
   compress_html: false
-paginate: 5000
-permalink: "/:categories/:title.html"
-category_dir: "/"
-category_layout: _templates/category.html
+paginate: 10
+paginate_path: "/category/page:num/"
+
 sass:
   style: expanded
 kramdown:
