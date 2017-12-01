@@ -112,7 +112,6 @@ jekyll_tidy:
   compress_html: false
 paginate: 10
 paginate_path: "/category/page:num/"
-
 sass:
   style: expanded
 kramdown:
