@@ -111,8 +111,12 @@ plugins_dir:
 jekyll_tidy:
   compress_html: false
 paginate: 10
+<<<<<<< HEAD
 paginate_path: "/press-and-news/page:num/"
 
+=======
+paginate_path: "/category/page:num/"
+>>>>>>> 26bdf0bd19a6820d27e03c354d74424e9552e38c
 sass:
   style: expanded
 kramdown:
