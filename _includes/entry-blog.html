@@ -1,0 +1,10 @@
+<article class="Entries-entry -{{ post.categories[0] | downcase }}" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="Thumbnail">
+    <img src="{{ site.baseurl }}{{ site.img_path }}/thumbs/{{ post.thumb }}">
+  </div>
+  <h3 class="Entries-title">
+    <a class="Entries-link" href="{{ site.baseurl }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" rel="bookmark">{{ post.title }}</a>
+  </h3>
+  {% if post.excerpt %}<p>{{ post.excerpt | truncatewords: 28 }}</p>{% else %} {{ post.content }} {% endif %}
+</article>
+

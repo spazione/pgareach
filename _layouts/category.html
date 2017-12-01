@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+{% if page.paginator %}
+{% assign paginator = page.paginator %}
+{% endif %}
+
+
+<section class="Entries">
+  <div class="Content Content--blog t-plain">
+    <div class="Content-container">
+      <h1 class="SectionTitle">{{ page.title }}</h1>
+      {% for post in paginator.posts %}
+      {% assign cat = post.categories[0] | downcase %}
+      {% capture category_path %}/{{ cat }}{% endcapture %}
+      {% include entry-blog.html %}
+      {% endfor %}
+    </div>
+    {% include pagination.html %}
+  </div>
+</section>
+
