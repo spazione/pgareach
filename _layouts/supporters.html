@@ -8,8 +8,8 @@ layout: default
       <div class="wpb_wrapper">
         <div class="wpb_text_column wpb_content_element  container">
           <div class="wpb_wrapper">
-            <h2>PGA REACH Trustees</h2>
-            <p>PGA REACH Trustees are an advisory group who assist with strategy, fundraising, and overall program support of the three core pillars for PGA REACH.</p>
+            <h2>{{ page.title }}</h2>
+            <p>{{ page.subtitle }}</p>
           </div>
         </div>
         <div class="vc_row wpb_row vc_inner vc_row-fluid suppor_contant container">
@@ -18,54 +18,12 @@ layout: default
               <div class="wpb_wrapper">
                 <div class="wpb_raw_code wpb_content_element wpb_raw_html vc_custom_1511189766388">
                   <div class="wpb_wrapper">
+                    {% for person in page.trustees_left %}
                     <span>
-                      <h2>Michael McCallister</h2>
-                      <p>PGA REACH Chairman</p>
+                      <h2>{{ person.name }}</h2>
+                      <p>{{ person.role }}</p>
                     </span>
-                    <span>
-                      <h2>Bret Baier</h2>
-                      <p>PGA REACH Trustee</p>
-                    </span>
-                    <span>
-                      <h2>Jim “Bear” Dyke</h2>
-                      <p>PGA REACH Trustee</p>
-                    </span>
-                    <span>
-                      <h2>John Elmore</h2>
-                      <p>PGA REACH Trustee</p>
-                    </span>
-                    <span>
-                      <h2>Jeff Fettig</h2>
-                      <p>PGA REACH Trustee</p>
-                    </span>
-                    <span>
-                      <h2>Larry Fitzgerald</h2>
-                      <p>PGA REACH Trustee</p>
-                    </span>
-                    <span>
-                      <h2>Karen Francis</h2>
-                      <p>PGA REACH Trustee</p>
-                    </span>
-                    <span>
-                      <h2>Ron Gidwitz</h2>
-                      <p>PGA REACH Trustee</p>
-                    </span>
-                    <span>
-                      <h2>John Green</h2>
-                      <p>PGA REACH Trustee</p>
-                    </span>
-                    <span>
-                      <h2>Matt Keiser</h2>
-                      <p>PGA REACH Trustee</p>
-                    </span>
-                    <span>
-                      <h2>Nina Kohler</h2>
-                      <p>PGA REACH Trustee</p>
-                    </span>
-                    <span>
-                      <h2>Ryan Lance</h2>
-                      <p>PGA REACH Trustee</p>
-                    </span>
+                    {% endfor %}
                   </div>
                 </div>
               </div>
@@ -76,50 +34,12 @@ layout: default
               <div class="wpb_wrapper">
                 <div class="wpb_raw_code wpb_content_element wpb_raw_html vc_custom_1510869333387">
                   <div class="wpb_wrapper">
+                    {% for person in page.trustees_right %}
                     <span>
-                      <h2>John Lundgren</h2>
-                      <p>PGA REACH Trustee</p>
+                      <h2>{{ person.name }}</h2>
+                      <p>{{ person.role }}</p>
                     </span>
-                    <span>
-                      <h2>Lamell McMorris</h2>
-                      <p>PGA REACH Trustee</p>
-                    </span>
-                    <span>
-                      <h2>Roger Nanney</h2>
-                      <p>PGA REACH  Trustee</p>
-                    </span>
-                    <span>
-                      <h2>Jack Nicklaus</h2>
-                      <p>PGA REACH Trustee</p>
-                    </span>
-                    <span>
-                      <h2>David O’Connor</h2>
-                      <p>PGA REACH Trustee</p>
-                    </span>
-                    <span>
-                      <h2>Darius Rucker</h2>
-                      <p>PGA REACH Trustee</p>
-                    </span>
-                    <span>
-                      <h2>Steve Schott</h2>
-                      <p>PGA REACH  Trustee</p>
-                    </span>
-                    <span>
-                      <h2>David Seaton</h2>
-                      <p>PGA REACH Trustee</p>
-                    </span>
-                    <span>
-                      <h2>Allen Shofe</h2>
-                      <p>PGA REACH Trustee</p>
-                    </span>
-                    <span>
-                      <h2>Rick Van Benschoten</h2>
-                      <p>PGA REACH Trustee</p>
-                    </span>
-                    <span>
-                      <h2>Bob Ford</h2>
-                      <p>PGA PROFESSIONAL Ambassador</p>
-                    </span>
+                    {% endfor %}
                   </div>
                 </div>
               </div>
@@ -140,7 +60,7 @@ layout: default
               <div class="wpb_wrapper">
                 <div class="wpb_text_column wpb_content_element ">
                   <div class="wpb_wrapper">
-                    <h1>PGA REACH PARTNERS</h1>
+                    <h1>{{ person.partners_title }}</h1>
                   </div>
                 </div>
               </div>
