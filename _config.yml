@@ -2,10 +2,6 @@
 title: PGA Reach
 timezone: UTC
 collections:
-  case_studies:
-    title: Case Studies
-    output: true
-    permalink: "/case-studies/:categories/:title.html"
   posts:
     title: Posts
     output: true
