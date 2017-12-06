@@ -1,14 +1,14 @@
 /*
     Theme Name: PGAREACH 1.0.3.01
-    Theme URI: 
+    Theme URI:
     Description: Custom theme for PGA Reach website.
     Author: Hardeep Singh
-    Author URI: 
+    Author URI:
     Version: 1.0.3
     License: GPL-2.0+
     License URI: http://www.opensource.org/licenses/gpl-license.php
     Text Domain: pgareach
-                   
+
 */
 
 
@@ -464,7 +464,7 @@ header .col-sm-3 .img-responsive{ max-height:65px !important; }
 .container .embed-responsive-item{
 height:400px !important;
 }
-@media(max-width:767px)  
+@media(max-width:767px)
 {
 .container .embed-responsive-item{ height:240px !important; }
 }
@@ -786,4 +786,8 @@ form.post-password-form{
 
 .marginleft {
     margin-left: 280px!important;
+}
+
+strong {
+  color: #b5985a;
 }
