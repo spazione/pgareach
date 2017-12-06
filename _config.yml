@@ -2,10 +2,6 @@
 title: PGA Reach
 timezone: UTC
 collections:
-  case_studies:
-    title: Case Studies
-    output: true
-    permalink: "/case-studies/:categories/:title.html"
   posts:
     title: Posts
     output: true
@@ -23,7 +19,7 @@ defaults:
     type: posts
   values:
     layout: post
-    thumbnail-image: 
+    thumbnail-image:
 navigation:
 - item: Home
   url: "/"
@@ -97,9 +93,9 @@ brochure-asset: "/uploads/PGA-REACH-Brochure1.pdf"
 copyright: "© 2017 The PGA of America. All rights reserved. PGA REACH is a trademark
   owned by the PGA of America"
 email: fe_cr@hotmail.com
-baseurl: 
-url: 
-google_analytics: 
+baseurl:
+url:
+google_analytics:
 gems:
 - jekyll-paginate
 plugins_dir:
