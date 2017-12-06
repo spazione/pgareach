@@ -67,13 +67,15 @@ layout: default
             </div>
           </div>
         </div>
+
+        {% for partner in page.partners %}
         <div class="vc_row wpb_row vc_inner vc_row-fluid row_mrg container vc_custom_1495805870407">
           <div class="wpb_column vc_column_container vc_col-sm-4">
             <div class="vc_column-inner ">
               <div class="wpb_wrapper">
                 <div class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1501614584003">
                   <figure class="wpb_wrapper vc_figure">
-                    <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="300" height="143" src="https://pgareach.org/wp-content/uploads/2017/06/dicks-sporting-goods-300x143.png" class="vc_single_image-img attachment-medium" alt="" srcset="https://pgareach.org/wp-content/uploads/2017/06/dicks-sporting-goods-300x143.png 300w, https://pgareach.org/wp-content/uploads/2017/06/dicks-sporting-goods.png 584w" sizes="(max-width: 300px) 100vw, 300px"></div>
+                    <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="300" height="143" src="{{ partner.logo_image }}" class="vc_single_image-img attachment-medium" alt="{{ partner.title_text }}"></div>
                   </figure>
                 </div>
               </div>
@@ -84,164 +86,16 @@ layout: default
               <div class="wpb_wrapper">
                 <div class="wpb_text_column wpb_content_element ">
                   <div class="wpb_wrapper">
-                    <h2>Dick’s Sporting Goods Foundation</h2>
-                    <p>The Dick’s Sporting Goods Foundation, Sports Matter, and PGA REACH, partner to bring the game of golf to thousand of underprivileged youth across the country through scholarships for PGA Junior League Golf.</p>
+                    <h2>{{ partner.title_text }}</h2>
+                    <p>{{ partner.description_text }}</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="vc_row wpb_row vc_inner vc_row-fluid row_mrg container vc_custom_1495805870407">
-          <div class="wpb_column vc_column_container vc_col-sm-4">
-            <div class="vc_column-inner ">
-              <div class="wpb_wrapper">
-                <div class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1501614786550">
-                  <figure class="wpb_wrapper vc_figure">
-                    <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="300" height="57" src="https://pgareach.org/wp-content/uploads/2017/06/Deloitte-300x57.png" class="vc_single_image-img attachment-medium" alt="" srcset="https://pgareach.org/wp-content/uploads/2017/06/Deloitte-300x57.png 300w, https://pgareach.org/wp-content/uploads/2017/06/Deloitte-e1497542242747.png 316w" sizes="(max-width: 300px) 100vw, 300px"></div>
-                  </figure>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="wpb_column vc_column_container vc_col-sm-8">
-            <div class="vc_column-inner ">
-              <div class="wpb_wrapper">
-                <div class="wpb_text_column wpb_content_element ">
-                  <div class="wpb_wrapper">
-                    <h2>Deloitte</h2>
-                    <p>Deloitte Consulting LLP provides consulting expertise and funding to PGA REACH in order to scale PGA HOPE to greater heights.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="vc_row wpb_row vc_inner vc_row-fluid row_mrg container vc_custom_1495805870407">
-          <div class="wpb_column vc_column_container vc_col-sm-4">
-            <div class="vc_column-inner ">
-              <div class="wpb_wrapper">
-                <div class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1501626347192  fix-height">
-                  <figure class="wpb_wrapper vc_figure">
-                    <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="506" height="236" src="https://pgareach.org/wp-content/uploads/2017/06/MarriottGolfLogo.png" class="vc_single_image-img attachment-full" alt="" srcset="https://pgareach.org/wp-content/uploads/2017/06/MarriottGolfLogo.png 506w, https://pgareach.org/wp-content/uploads/2017/06/MarriottGolfLogo-300x140.png 300w" sizes="(max-width: 506px) 100vw, 506px"></div>
-                  </figure>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="wpb_column vc_column_container vc_col-sm-8">
-            <div class="vc_column-inner ">
-              <div class="wpb_wrapper">
-                <div class="wpb_text_column wpb_content_element ">
-                  <div class="wpb_wrapper">
-                    <h2>Marriott</h2>
-                    <p>Golfers have the opportunity to take part in the Hit the Green for HOPE promotion at 17 participating Marriott Golf properties nationwide. All proceeds from the campaign will be used to support and enhance PGA HOPE programming.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="vc_row wpb_row vc_inner vc_row-fluid row_mrg container vc_custom_1495805870407">
-          <div class="wpb_column vc_column_container vc_col-sm-4">
-            <div class="vc_column-inner ">
-              <div class="wpb_wrapper">
-                <div class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1503343661933  fix-height">
-                  <figure class="wpb_wrapper vc_figure">
-                    <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="300" height="300" src="https://pgareach.org/wp-content/uploads/2017/06/PGAREACHPROAMlogoFinal1-300x300.jpg" class="vc_single_image-img attachment-medium" alt="" srcset="https://pgareach.org/wp-content/uploads/2017/06/PGAREACHPROAMlogoFinal1-300x300.jpg 300w, https://pgareach.org/wp-content/uploads/2017/06/PGAREACHPROAMlogoFinal1-150x150.jpg 150w, https://pgareach.org/wp-content/uploads/2017/06/PGAREACHPROAMlogoFinal1-768x768.jpg 768w, https://pgareach.org/wp-content/uploads/2017/06/PGAREACHPROAMlogoFinal1-1024x1024.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px"></div>
-                  </figure>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="wpb_column vc_column_container vc_col-sm-8">
-            <div class="vc_column-inner ">
-              <div class="wpb_wrapper">
-                <div class="wpb_text_column wpb_content_element ">
-                  <div class="wpb_wrapper">
-                    <h2>National Car Rental</h2>
-                    <p>National Car Rental is the official sponsor of the National Car Rental PGA REACH Charity Pro-Ams.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="vc_row wpb_row vc_inner vc_row-fluid row_mrg container vc_custom_1495805870407">
-          <div class="wpb_column vc_column_container vc_col-sm-4">
-            <div class="vc_column-inner ">
-              <div class="wpb_wrapper">
-                <div class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1501616110457  fix-height">
-                  <figure class="wpb_wrapper vc_figure">
-                    <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="300" height="184" src="https://pgareach.org/wp-content/uploads/2017/06/NYCM15-charity_logo_RGB_full-color_secondary_stacked-300x184.jpg" class="vc_single_image-img attachment-medium" alt="" srcset="https://pgareach.org/wp-content/uploads/2017/06/NYCM15-charity_logo_RGB_full-color_secondary_stacked-300x184.jpg 300w, https://pgareach.org/wp-content/uploads/2017/06/NYCM15-charity_logo_RGB_full-color_secondary_stacked.jpg 535w" sizes="(max-width: 300px) 100vw, 300px"></div>
-                  </figure>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="wpb_column vc_column_container vc_col-sm-8">
-            <div class="vc_column-inner ">
-              <div class="wpb_wrapper">
-                <div class="wpb_text_column wpb_content_element ">
-                  <div class="wpb_wrapper">
-                    <h2>New York City Marathon</h2>
-                    <p>PGA REACH is an Official Charity Partner of the TCS New York City Marathon. A PGA REACH team of runners will raise funds and participate with all proceeds benefiting PGA REACH.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="vc_row wpb_row vc_inner vc_row-fluid row_mrg container vc_custom_1495805870407">
-          <div class="wpb_column vc_column_container vc_col-sm-4">
-            <div class="vc_column-inner ">
-              <div class="wpb_wrapper">
-                <div class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1501625503021  fix-height">
-                  <figure class="wpb_wrapper vc_figure">
-                    <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="300" height="205" src="https://pgareach.org/wp-content/uploads/2017/06/jack_nicklaus_golf1-300x205.jpg" class="vc_single_image-img attachment-medium" alt="" srcset="https://pgareach.org/wp-content/uploads/2017/06/jack_nicklaus_golf1-300x205.jpg 300w, https://pgareach.org/wp-content/uploads/2017/06/jack_nicklaus_golf1.jpg 463w" sizes="(max-width: 300px) 100vw, 300px"></div>
-                  </figure>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="wpb_column vc_column_container vc_col-sm-8">
-            <div class="vc_column-inner ">
-              <div class="wpb_wrapper">
-                <div class="wpb_text_column wpb_content_element ">
-                  <div class="wpb_wrapper">
-                    <h2>Nicklaus Companies</h2>
-                    <p>Partnership includes financial support from the Nicklaus Companies, as well as a personal commitment from Jack Nicklaus to make an impact on all three areas of focus for PGA REACH. The Nicklaus Companies will become a PGA REACH Trustee, and Jack Nicklaus will serve as a spokesperson for PGA REACH.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="vc_row wpb_row vc_inner vc_row-fluid row_mrg container vc_custom_1495805870407">
-          <div class="wpb_column vc_column_container vc_col-sm-4">
-            <div class="vc_column-inner ">
-              <div class="wpb_wrapper">
-                <div class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1503693573501  fix-height">
-                  <figure class="wpb_wrapper vc_figure">
-                    <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="233" height="175" src="https://pgareach.org/wp-content/uploads/2017/06/peter-millar-color-logo.png" class="vc_single_image-img attachment-large" alt=""></div>
-                  </figure>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="wpb_column vc_column_container vc_col-sm-8">
-            <div class="vc_column-inner ">
-              <div class="wpb_wrapper">
-                <div class="wpb_text_column wpb_content_element ">
-                  <div class="wpb_wrapper">
-                    <h2>Peter Millar</h2>
-                    <p>Proud Outfitter of PGA REACH Trustees.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        {% endfor %}
+
       </div>
     </div>
   </div>
