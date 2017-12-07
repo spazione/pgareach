@@ -38,10 +38,6 @@ slider:
   second-line: golf
   image: "/uploads/slider3.jpg"
   donate-button: true
-- first-line: Lorem ipsum dolor sit
-  second-line: amet
-  image: "/uploads/slider3.jpg"
-  donate-button: false
 intro-text: "### PGA REACH is the 501(c)(3) charitable foundation of the PGA of America.
   \ The mission of PGA REACH is to positively impact the lives of youth, military,
   and diverse populations by enabling access to PGA Professionals, PGA Sections and
