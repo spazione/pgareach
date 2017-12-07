@@ -35,7 +35,7 @@ navigation:
   url: "/press-and-news/"
 slider:
 - first-line: Impacting lives through
-  second-line: gold
+  second-line: golf
   image: "/uploads/slider3.jpg"
   donate-button: true
 - first-line: Lorem ipsum dolor sit
