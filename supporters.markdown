@@ -2,7 +2,7 @@
 title: PGA REACH Trustees
 date: 2017-11-26 21:11:00 Z
 permalink: supporters
-subtile: PGA REACH Trustees are an advisory group who assist with strategy, fundraising,
+subtitle: PGA REACH Trustees are an advisory group who assist with strategy, fundraising,
   and overall program support of the three core pillars for PGA REACH.
 trustees_left:
 - name: Michael McCallister
