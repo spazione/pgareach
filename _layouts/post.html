@@ -17,35 +17,15 @@ layout: default
         <div class="widget recent-posts-3 widget_recent_entries">
           <h2 class="widget-title">Recent Posts</h2>
           <ul>
+            {% for post in site.posts limit:5 %}
             <li>
-              <a href="https://pgareach.org/pga-reach-donates-over-230000-to-section-foundations/">PGA REACH Donates Over $230,000 to Section Foundations</a>
+              <a href="{{ post.url }}/">{{ post.title }}</a>
             </li>
-            <li>
-              <a href="https://pgareach.org/pga-reach-announces-inaugural-pga-national-day-of-hope-on-nov-11/">PGA REACH Announces  Inaugural PGA National Day of HOPE on Nov. 11</a>
-            </li>
-            <li>
-              <a href="https://pgareach.org/deloitte-professionals-lend-a-helping-hand-to-pga-hope-in-support-of-our-nations-military-veterans/">Deloitte Professionals Lend a Helping Hand to PGA HOPE  in Support of Our Nation’s Military Veterans</a>
-            </li>
-            <li>
-              <a href="https://pgareach.org/pga-reach-named-an-official-charity-partner-of-the-2017-tcs-new-york-city-marathon/">PGA REACH Named An Official Charity Partner Of  The 2017 TCS New York City Marathon</a>
-            </li>
-            <li>
-              <a href="https://pgareach.org/rory-mcilroy-and-rickie-fowler-surprise-hundreds-of-pga-junior-league-golfers-at-99th-pga-championship-at-quail-hollow-club/">Rory McIlroy and Rickie Fowler Surprise Hundreds of PGA Junior League Golfers  at 99th PGA Championship at Quail Hollow Club</a>
-            </li>
+            {% endfor %}
           </ul>
         </div>
         <div class="widget archives-3 widget_archive">
-          <h2 class="widget-title">Archives</h2>
-          <ul>
-            <li><a href="https://pgareach.org/2017/11/">November 2017</a></li>
-            <li><a href="https://pgareach.org/2017/10/">October 2017</a></li>
-            <li><a href="https://pgareach.org/2017/08/">August 2017</a></li>
-            <li><a href="https://pgareach.org/2017/07/">July 2017</a></li>
-            <li><a href="https://pgareach.org/2017/06/">June 2017</a></li>
-            <li><a href="https://pgareach.org/2016/05/">May 2016</a></li>
-            <li><a href="https://pgareach.org/2016/04/">April 2016</a></li>
-            <li><a href="https://pgareach.org/2016/03/">March 2016</a></li>
-          </ul>
+          <a href="/archive.html"><h2 class="widget-title">Archives</h2></a>
         </div>
       </div>
     </div>

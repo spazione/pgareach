@@ -4,7 +4,7 @@ date: 2017-11-09 16:11:00 Z
 thumbnail-image: "/uploads/PGACH.08.06.17.237-e1510193843893.jpg"
 ---
 
-_PGA HOPE (Helping Our Patriots Everywhere) Golf Programs Continue to __Expand Nationwide; Inspiring 'Hero' Video Featuring Jack Nicklaus Highlights Impact of PGA HOPE on Military Veterans._
+PGA HOPE (Helping Our Patriots Everywhere) Golf Programs Continue to Expand Nationwide; Inspiring 'Hero' Video Featuring Jack Nicklaus Highlights Impact of PGA HOPE on Military Veterans.
 
 PALM BEACH GARDENS, Fla. (Nov. 9, 2017) PGA REACH, the 501(c)(3) charitable foundation of the PGA of America, has announced that Saturday, Nov. 11—Veterans Day— will serve as the inaugural **PGA National Day of HOPE.  **
 
