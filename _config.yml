@@ -42,13 +42,10 @@ slider:
   second-line: amet
   image: "/uploads/slider3.jpg"
   donate-button: false
-intro-text-block-one: Saturday, November 11 – Veterans Day – served as the inaugural
-  PGA National Day of HOPE. This HERO video, featuring Jack Nicklaus, highlights the
-  positive impact that PGA HOPE has on the lives of our Military Veterans.
-intro-text-block-two: PGA REACH is the 501(c)(3) charitable foundation of the PGA
+intro-text-block-one: 'PGA REACH is the 501(c)(3) charitable foundation of the PGA
   of America.  The mission of PGA REACH is to positively impact the lives of youth,
   military, and diverse populations by enabling access to PGA Professionals, PGA Sections
-  and the game of golf.
+  and the game of golf. '
 intro-video-url: https://vimeo.com/230451690
 team:
 - item: Ryan Cannon
