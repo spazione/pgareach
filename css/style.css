@@ -88,7 +88,8 @@ header{ width:100%; float:left; background:#fff; padding:20px 0px; -webkit-trans
 .three_box .box3 .more{ display:inline-block; margin-top:20px; font-size:20.83px; color:#555353; text-transform:uppercase; padding:15px 35px; border:1px solid #555353; }
 .three_box .box3 .more:hover{ background:#b5985a; color:#fff; border-color:#b5985a; }
 .press_news{ width:100%; float:left; padding:70px 0px 40px; }
-.press_news .title{ font-size:25px; color:#1f2a43; margin:0px; text-transform:uppercase; float: left; }
+.press_news .title{ font-size:25px; color:#1f2a43; margin:0px; text-transform:uppercase; }
+.archive .press_news .title{ float: left; }
 .press_news .news{ margin-top:26px; }
 .press_news .news img{ float:left; margin-right:15px; }
 .press_news .news h2{ font-size:16.67px; color:#b5985a; margin:0px; }
